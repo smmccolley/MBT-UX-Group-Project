@@ -57,7 +57,6 @@ p{
 
 .row {
     padding-top: 10%;
-    padding-bottom: 10%;
     margin-left: 15%;
     margin-right: 0 auto;
 }
@@ -77,12 +76,10 @@ p{
     padding-bottom: 3%;
 }
 .h1-black-section {
-    padding-top: 10%;
     padding-bottom: 2%;
     color: #D7B061;
 }
 .h1-white-section {
-    padding-top: 10%;
     padding-bottom: 2%;
     color: black;
 }
@@ -91,40 +88,35 @@ p{
     padding-bottom: 5%;
 }
 /*SECONDARY NAVIGATION*/
-.navbar {
-    background-color: white;
-    position: fixed;
-    top: 10;
-    background-color: white;
-    margin-left: 0;
-    overflow: hidden;
-    
+
+.menu_bar{
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
-.navbar-nav {
-    justify-content: space-around;
-    width: 100%;
-    padding-bottom: 2%;
-    border-bottom: 5px, #D7B061 !important;
-    
+
+.menu{
+    text-align: center;
 }
-.active {
-    border-bottom: 5px, #D7B061;
-}
-.nav-link {
-    font-family: 'prata', 'serif';
+
+.menu a{
     text-decoration: none;
-    font-size: 30px;
-    color: black !important;
-}
-.nav-link :hover {
-    text-decoration: underline, 5px, solid #D7B061 !important;
-    transition: 0.3s !important;
     color: black;
+    font-family: 'Prata', 'serif';
+    font-size: 16pt;
+    font-weight: 300;
+    font-style: normal;
 }
 
-/*HOMEPAGE*/
+.menu a:hover{
+    color:black;
+    border-bottom: 5px solid #D7B061;
+}
 
-/*ABOUT PAGE*/
+.menu a:active{
+    border-bottom: 5px solid #D7B061;
+}
 
 /*CLASSES PAGE*/
 .classes-hero {
@@ -132,14 +124,28 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    margin: 0 auto;
+    width: 100%;
     height: 90vh;
+    padding-bottom: 10%;
 }
 .card-text {
     text-align: left;
 }
-.calendar {
+
+.btn-card-classes {
+    padding: 5%;
+    margin-top: auto;
+    font-family: 'brandon-grotesque', 'sans serif';
+}
+
+/*CALENDAR*/
+
+#calendar {
     text-align: center;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
 }
 
 .calendar-card {
@@ -147,14 +153,12 @@ p{
     margin-left: 15%;
     margin-right: auto;
 }
-.btn-card-classes {
-    padding: 5%;
-    margin-top: auto;
-    font-family: 'brandon-grotesque', 'sans serif';
-}
+/*SCHOLARSHIPS*/
 .scholarships-section {
     padding-top: 10%;
     padding-bottom: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 .scholarships-line {
     color: black;
@@ -165,13 +169,26 @@ p{
     flex-direction: row;
     padding-top: 5%;
     padding-bottom: 5%;
-    margin-left: 15%;
-    margin-right: 0 auto;
+    justify-content: center;
+    /*margin-left: 15%;
+    margin-right: 0 auto;*/
 }
 
+/*GENERAL CARD INFO*/
+
+.cardContainer {
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
 .container-fluid {
-    flex-direction: row;
+    position: center;
     border: none !important;
+    justify-content: center;
+}
+
+.card {
+    border: none !important;   
 }
 .card-title-black {
     color: white;
@@ -197,45 +214,95 @@ p{
 }
 
 .card-img-top {
-    height: 386px;
+    height: 35vh;
     object-position: center;
     object-fit: cover;
-    border-radius: 0 0 0 0;
+    border-radius: 0 0 0 0 !important;
     
+}
+
+
+/*TRAINING CARDS*/
+#training-programs {
+    background-color: black;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+}
+.container-fluid .content .classes-training {
+    position: center;
+    border: none !important;
+    justify-content: center;
 }
 .card-body-training {
     border: none !important;
     background-color: black;
+    width: 100%;
+}
+.row .training-programs {
+    padding-top: 10%;
+    padding-bottom: 5%;
 }
 
-#training-programs {
-    background-color: black;
-    text-align: center;
-}
-
-.card-body-open {
-    border: none !important;
-}
+/*OPEN CLASSES CARDS*/
 #open-classes {
     background-color: white;
     text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+}
+.card-body-open {
+    border: none !important;
+}
+.row .open {
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
+
+/*OPEN CLASSES CARDS*/
+#adult-classes {
+    background-color: black;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+}
 .card-body-adult {
     border: none !important;
     background-color: black;
 }
 
-#adult-classes {
-    background-color: black;
-    text-align: center;
+.row .adult-classes-row {
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
+/*INTENSIVES CARDS*/
 
-.card-body-intensives {
-    border: none !important;
-}
 #intensives {
     background-color: white;
     text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+}
+.card-body-intensives {
+    border: none !important;
+}
+.row .intensives-row {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5;
 }
   

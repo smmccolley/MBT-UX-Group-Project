@@ -20,42 +20,54 @@
 <body>
     <!-- Nav Bar -->
     <header>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-white bg-white">
-            <div class="container-fluid">
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link active" aria-current="page" href="#training-programs">Training Programs</a>
-                  <a class="nav-link" href="#open-classes">Open Classes</a>
-                  <a class="nav-link" href="#adult-classes">Adult Classes</a>
-                  <a class="nav-link"href="#intensives">Intensives</a>
-                </div>
-              </div>
-            </div>
-          </nav>
+    
     </header>
 
 <!-- Content - CLASSES-->
+
+<!--Secondary Navigation-->
+<div class="row row_jr menu_bar">
+  <div class="col-sm-2">
+      <div class="menu"><a class="tab tab1" href=#training-programs>Training Programs</a></div>
+  </div>
+
+  <div class="col-sm-2">
+      <div class="menu"><a class="tab tab2" href=#open-classes>Open Classes</a></div>
+  </div>
+
+  <div class="col-sm-2">
+      <div class="menu"><a class="tab tab3" href=#adult-classes>Adult Classes</a></div>
+  </div>
+
+  <div class="col-sm-2">
+      <div class="menu"><a class="tab tab4" href=#intensives>Intensives</a></div>
+  </div>
+
+
+  <!--Hero Space-->
+</div>
     <div class="classes-hero">
     </div>
 
-    <div class ="calendar">
+    <!--CALENDAR-->
+    <div id ="calendar-section">
         <h1 class="h1-white-section">CLASS CALENDAR</h1>
-        <div class="calendar-card col-lg-8 col-md-8 col-sm-10>
-            <img src="#" class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">PLACEHOLDER FOR CALENDAR</p>
-            </div>
+        <div class="calendar-card col-lg-12 col-md-12 col-sm-12 d-inline-block">
+            <img src="images/classes-calendar.png" width ="100%" alt="...">
           </div>
     </div>
+  
+    <!--Scholarships-->
     <div class="scholarships-section">
     <hr class="scholarships-line">
     <div class="scholarships">
-        <h2 class="apply-scholarships col-lg-6 col-md-6 col-sm-8">APPLY FOR SCHOLARSHIPS</h2>
-        <button class="btn-primary col-lg-3 col-md-3 col-sm-8">MORE INFORMATION</button>
+        <h2 class="apply-scholarships col-lg-6 col-md-6 col-sm-12">APPLY FOR SCHOLARSHIPS</h2>
+        <button class="btn-primary col-lg-3 col-md-3 col-sm-8" href="about.html">MORE INFORMATION</button>
     </div>
     <hr class="scholarships-line">
     </div>
 
+<!--TRAINING CARDS-->
     <div id="training-programs">
         <h1 class="h1-black-section">TRAINING PROGRAMS</h1>
         <h3 class="h3-section-subtitle">YEAR-LONG PROGRAMS FOR EXPERIENCED DANCERS</h3>
@@ -64,25 +76,25 @@
             <div class="row training-programs">
 
         <!-- Training Programs Card 1 -->
-        <div class="cardContainer col-lg-5 col-md-5 col-sm-10 offset-1">
+        <div class="cardContainer col-lg-6 col-md-6 col-sm-12 d-inline-block">
         <div class="card">
             <img src="images/classes-preparatory-new.png" class="card-img-top" alt="preparatory-image">
             <div class="card-body-training">
               <h3 class="card-title-black">PREPARATORY</h3>
-              <h4 class="card-text-black">MBTPrep students are taught the fundamentals of ballet in a serious, yet nurturing environment. Syllabus includes ballet, movement, ballet terminology, and the basics of ballet culture. Auditions are not required to be in Prep classes or to be included in the end-of-year performance.</h4>
-              <a href="#" class="btn btn-primary btn-card-classes">RESERVE</a>
+              <h6 class="card-text-black">MBTPrep students are taught the fundamentals of ballet in a serious, yet nurturing environment. Syllabus includes ballet, movement, ballet terminology, and the basics of ballet culture. Auditions are not required to be in Prep classes or to be included in the end-of-year performance.</h6>
+              <a href="#calendar-section" class="btn btn-primary btn-card-classes">RESERVE</a>
             </div>
           </div>
         </div>
 
           <!-- Training Programs Card 2 -->
-        <div class="cardContainer col-lg-5 col-md-5 col-sm-10">
+        <div class="cardContainer col-lg-6 col-md-6 col-sm-12 d-inline-block">
           <div class="card">
             <img src="images/classes-training-trainee-2.jpeg" class="card-img-top" alt="preparatory-image" bg="cover">
             <div class="card-body-training">
               <h3 class="card-title-black">TRAINEE</h3>
-              <h4 class="card-text-black">MBT’s Trainee program is for experienced and focused ballet dancers ages 6-8. Dancers are invited into the trainee program after being observed and evaluated during a ballet class. Trainees perform at least three times during each school year and serve as role models to MBT’s MetPrep dancers. Successful trainees graduate into MBT’s prestigious PrePro Division.</h4>
-              <a href="#" class="btn btn-primary btn-card-classes">RESERVE</a>
+              <h6 class="card-text-black">MBT’s Trainee program is for experienced and focused ballet dancers ages 6-8. Dancers are invited into the trainee program after being observed and evaluated during a ballet class. Trainees perform at least three times during each school year and serve as role models to MBT’s MetPrep dancers. Successful trainees graduate into MBT’s prestigious PrePro Division.</h6>
+              <a href="#calendar-section" class="btn btn-primary btn-card-classes">RESERVE</a>
             </div>
           </div>
         </div>
@@ -91,25 +103,25 @@
         <div class="row training-programs">
 
         <!-- Training Programs Card 3 -->
-            <div class="cardContainer col-lg-5 col-md-5 col-sm-10 offset-1">
+            <div class="cardContainer col-lg-6 col-md-6 col-sm-12 d-inline-block">
             <div class="card">
                 <img src="images/classes-training-pre-pro.png" class="card-img-top" alt="preparatory-image">
                 <div class="card-body-training">
                 <h3 class="card-title-black">PRE-PROFESSIONAL</h3>
-                <h4 class="card-text-black">MBT’s Pre-Professional program focuses on the increased individual instructional needs of dancers aged 10 through 21. Classification is based on skill level rather than age. All Pre-professional students take class in ballet technique and Jazz. Advanced levels also include pointe and modern. In-class time ranges from 6.5 hours per week in the lower levels up to 35 hours per week at higher levels.</h4>
-                <a href="#" class="btn btn-primary btn-card-classes">RESERVE</a>
+                <h6 class="card-text-black">MBT’s Pre-Professional program focuses on the increased individual instructional needs of dancers aged 10 through 21. Classification is based on skill level rather than age. All Pre-professional students take class in ballet technique and Jazz. Advanced levels also include pointe and modern. In-class time ranges from 6.5 hours per week in the lower levels up to 35 hours per week at higher levels.</h6>
+                <a href="#calendar-section" class="btn btn-primary btn-card-classes">RESERVE</a>
                 </div>
             </div>
             </div>
 
           <!-- Training Programs Card 4 -->
-            <div class="cardContainer col-lg-5 col-md-5 col-sm-10">
+            <div class="cardContainer col-lg-6 col-md-6 col-sm-12 d-inline-block">
             <div class="card">
                 <img src="images/classes-conservatory.png" class="card-img-top" alt="preparatory-image">
                 <div class="card-body-training">
                 <h3 class="card-title-black">CONSERVATORY</h3>
-                <h4 class="card-text-black">For dedicated dance students enrolled in independent school programs (homeschool, online school, half-day programs, or other alternative academic arrangements), MBT’s Conservatory program offers intensive training during the day. The program offers additional classes at 19 hours of dance class per week (total of 30-35 hours per week when combined with Pre-Professional class time), and a study room with broadband and ample desk space.</h4>
-                <a href="#" class="btn btn-primary btn-card-classes">RESERVE</a>
+                <h6 class="card-text-black">For dedicated dance students enrolled in independent school programs (homeschool, online school, half-day programs, or other alternative academic arrangements), MBT’s Conservatory program offers intensive training during the day. The program offers additional classes at 19 hours of dance class per week (total of 30-35 hours per week when combined with Pre-Professional class time), and a study room with broadband and ample desk space.</h6>
+                <a href="#calendar-section" class="btn btn-primary btn-card-classes">RESERVE</a>
              </div>
             </div>
             </div>
@@ -117,6 +129,7 @@
         </div>
     </div>
 
+<!--OPEN CARDS-->
    <div id="open-classes">
     <h1 class="h1-white-section">OPEN CLASSES</h1>
     <h3 class="h3-section-subtitle">ADDITIONAL TRAINING OPTIONS</h3>
@@ -125,27 +138,27 @@
     <div class="row open">
 
     <!-- Open Classes Card 1 -->
-        <div class="cardContainer col-lg-5 col-md-5 col-sm-10 offset-1">
+        <div class="cardContainer col-lg-6 col-md-6 col-sm-12 d-inline-block">
         <div class="card">
             <img src="images/classes-open-ages9-12.png" class="card-img-top" alt="preparatory-image">
             <div class="card-body-open">
                 <h3 class="card-title-white">AGES 9-12</h3>
-                <h4 class="card-text-white">$25 per person - No audition. Reserve your class on the calendar. 
-                    The popular open classes at MBT are offered throughout the year on a schedule based on the ballet season. The classes are taught by master instructors and provide barre and center work for dancers who want to maintain technique and additional training time.</h4>
-                <a href="#" class="btn btn-primary btn-card-classes">RESERVE</a>
+                <h6 class="card-text-white">$25 per person - No audition. Reserve your class on the calendar. 
+                    The popular open classes at MBT are offered throughout the year on a schedule based on the ballet season. The classes are taught by master instructors and provide barre and center work for dancers who want to maintain technique and additional training time.</h6>
+                <a href="#calendar-section" class="btn btn-primary btn-card-classes">RESERVE</a>
             </div>
         </div>
         </div>
 
       <!-- Open Classes Card 2 -->
-        <div class="cardContainer col-lg-5 col-md-5 col-sm-10">
+        <div class="cardContainer col-lg-6 col-md-6 col-sm-12 d-inline-block">
         <div class="card">
             <img src="images/classes-open13.png" class="card-img-top" alt="preparatory-image">
             <div class="card-body-open">
                 <h3 class="card-title-white">AGES 13 AND UP</h3>
-                <h4 class="card-text-white">$25 per person - No audition. Reserve your class on the calendar. 
-                The popular open classes at MBT are offered throughout the year on a schedule based on the ballet season. The classes are taught by master instructors and provide barre and center work for dancers who want to maintain technique and additional training time.</h4>
-                <a href="#" class="btn btn-primary btn-card-classes">RESERVE</a>
+                <h6 class="card-text-white">$25 per person - No audition. Reserve your class on the calendar. 
+                The popular open classes at MBT are offered throughout the year on a schedule based on the ballet season. The classes are taught by master instructors and provide barre and center work for dancers who want to maintain technique and additional training time.</h6>
+                <a href="#calendar-section" class="btn btn-primary btn-card-classes">RESERVE</a>
             </div>
         </div>
         </div>
@@ -154,27 +167,27 @@
     <div class="row open">
 
     <!-- Open Classes Card 3 -->
-        <div class="cardContainer col-lg-5 col-md-5 col-sm-10 offset-1">
+        <div class="cardContainer col-lg-6 col-md-6 col-sm-12 d-inline-block">
         <div class="card">
             <img src="images/classes-open-18up.png" class="card-img-top" alt="preparatory-image">
             <div class="card-body-open">
                 <h3 class="card-title-white">AGES 18 AND UP</h3>
-                <h4 class="card-text-white">$25 per person - No audition. Reserve your class on the calendar. 
-                The popular open classes at MBT are offered throughout the year on a schedule based on the ballet season. The classes are taught by master instructors and provide barre and center work for dancers who want to maintain technique and additional training time.</h4>
-                <a href="#" class="btn btn-primary btn-card-classes">RESERVE</a>
+                <h6 class="card-text-white">$25 per person - No audition. Reserve your class on the calendar. 
+                The popular open classes at MBT are offered throughout the year on a schedule based on the ballet season. The classes are taught by master instructors and provide barre and center work for dancers who want to maintain technique and additional training time.</h6>
+                <a href="#calendar-section" class="btn btn-primary btn-card-classes">RESERVE</a>
             </div>
         </div>
         </div>
 
     <!-- Open Classes Card 4 -->
-        <div class="cardContainer col-lg-5 col-md-5 col-sm-10">
+        <div class="cardContainer col-lg-6 col-md-6 col-sm-12 d-inline-block">
         <div class="card">
             <img src="images/classes-open-other.jpeg" class="card-img-top" alt="preparatory-image">
             <div class="card-body-open">
-                <h3 class="card-title-white">OTHER CATEGORY</h3>
-                <h4 class="card-text-white">$25 per person - No audition. Reserve your class on the calendar. 
-                The popular open classes at MBT are offered throughout the year on a schedule based on the ballet season. The classes are taught by master instructors and provide barre and center work for dancers who want to maintain technique and additional training time.</h4>
-                <a href="#" class="btn btn-primary btn-card-classes">RESERVE</a>
+                <h3 class="card-title-white">OPEN CLASSES</h3>
+                <h6 class="card-text-white">$25 per person - No audition. Reserve your class on the calendar. 
+                The popular open classes at MBT are offered throughout the year on a schedule based on the ballet season. The classes are taught by master instructors and provide barre and center work for dancers who want to maintain technique and additional training time.</h6>
+                <a href="#calendar-section" class="btn btn-primary btn-card-classes">RESERVE</a>
             </div>
         </div>
         </div>
@@ -182,6 +195,7 @@
 </div>
     </div>
 
+<!--ADULT CLASSES CARDS-->
     <div id="adult-classes">
         <h1 class="h1-black-section">ADULT CLASSES</h1>
         <h3 class="h3-section-subtitle">DANCE & EXERCISE CLASSES OPEN TO ALL ADULTS</h3>
@@ -190,27 +204,27 @@
             <div class="row adult-classes-row">
 
         <!-- Adult Classes Card 1 -->
-        <div class="cardContainer col-lg-5 col-md-5 col-sm-10 offset-1">
+        <div class="cardContainer col-lg-6 col-md-6 col-sm-12 d-inline-block">
         <div class="card">
             <img src="images/classes-adult-pilates.jpeg" class="card-img-top" alt="pilates-image">
             <div class="card-body-adult">
               <h3 class="card-title-black">PILATES</h3>
-              <h4 class="card-text-black">$15 per class - Introductory Rate  / $150 10-class card
-                Come join the group and have a little fun while exercising! Featuring a mix of ballet and dance-based fitness, specially designed for mature students. No previous experience is required, but also suitable for retired dancers as well.</h4>
-              <a href="#" class="btn btn-primary btn-card-classes">RESERVE</a>
+              <h6 class="card-text-black">$15 per class - Introductory Rate  / $150 10-class card
+                Come join the group and have a little fun while exercising! Featuring a mix of ballet and dance-based fitness, specially designed for mature students. No previous experience is required, but also suitable for retired dancers as well.</h6>
+              <a href="#calendar-section" class="btn btn-primary btn-card-classes">RESERVE</a>
             </div>
           </div>
         </div>
 
           <!-- Adult Classes Card 2 -->
-        <div class="cardContainer col-lg-5 col-md-5 col-sm-10">
+        <div class="cardContainer col-lg-6 col-md-6 col-sm-12 d-inline-block">
           <div class="card">
             <img src="images/classes-adult-barre.png" class="card-img-top" alt="ballet-adult-image">
             <div class="card-body-adult">
               <h3 class="card-title-black">BALLET</h3>
-              <h4 class="card-text-black">$15 per class - Introductory Rate  / $150 10-class card
-                Come join the group and have a little fun while exercising! Featuring a mix of ballet and dance-based fitness, specially designed for mature students. No previous experience is required, but also suitable for retired dancers as well.</h4>
-              <a href="#" class="btn btn-primary btn-card-classes">RESERVE</a>
+              <h6 class="card-text-black">$15 per class - Introductory Rate  / $150 10-class card
+                Come join the group and have a little fun while exercising! Featuring a mix of ballet and dance-based fitness, specially designed for mature students. No previous experience is required, but also suitable for retired dancers as well.</h6>
+              <a href="#calendar-section" class="btn btn-primary btn-card-classes">RESERVE</a>
             </div>
           </div>
         </div>
@@ -218,6 +232,7 @@
         </div>
     </div>
 
+<!--INTENSIVES CARDS-->
     <div id="intensives">
         <h1 class="h1-white-section">INTENSIVES</h1>
         <h3 class="h3-section-subtitle">SUMMER CAMPS & YEAR-LONG PROGRAMS</h3>
@@ -226,25 +241,25 @@
             <div class="row intensives-row">
 
         <!-- Intensives Card 1 -->
-        <div class="cardContainer col-lg-5 col-md-5 col-sm-10 offset-1">
+        <div class="cardContainer col-lg-6 col-md-6 col-sm-12 d-inline-block">
         <div class="card">
             <img src="images/classes-intensives-prepro.png" class="card-img-top" alt="intensives-instruction">
             <div class="card-body-intensives">
               <h3 class="card-title-white">YEAR-LONG PROGRAMS</h3>
               <h6 class="card-text-white">Metropolitan Ballet Theatre offers a range of programs to meet the developmental needs of dancers at each every stage of their physical, mental, emotional and artistic growth. MBT especially prides itself focused consistency in daily training, achieved by the efforts of a small and dedicated faculty.</h6>
-              <a href="#" class="btn btn-primary btn-card-classes">RESERVE</a>
+              <a href="#calendar-section" class="btn btn-primary btn-card-classes">RESERVE</a>
             </div>
           </div>
         </div>
 
           <!-- Intensives Card 2 -->
-        <div class="cardContainer col-lg-5 col-md-5 col-sm-10">
+        <div class="cardContainer col-lg-6 col-md-6 col-sm-12 d-inline-block">
           <div class="card">
             <img src="images/classes-intensive-summer.jpeg" class="card-img-top" alt="intensives-instruction">
             <div class="card-body-intensives">
               <h3 class="card-title-white">SUMMER INTENSIVES</h3>
-              <h4 class="card-text-white">At Metropolitan Ballet Theatre’s Summer Intensive program, ballet technique is emphasized along with studies in character interpretation, strengthening, jazz and modern. Classes will consist of ballet technique, pointe, variations, modern, jazz, pilates/gyrotonics, and ballet history/tech.</h4>
-              <a href="#" class="btn btn-primary btn-card-classes">RESERVE</a>
+              <h6 class="card-text-white">At Metropolitan Ballet Theatre’s Summer Intensive program, ballet technique is emphasized along with studies in character interpretation, strengthening, jazz and modern. Classes will consist of ballet technique, pointe, variations, modern, jazz, pilates/gyrotonics, and ballet history/tech.</h6>
+              <a href="#calendar-section" class="btn btn-primary btn-card-classes">RESERVE</a>
             </div>
           </div>
         </div>

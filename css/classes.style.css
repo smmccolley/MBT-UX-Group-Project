@@ -6,6 +6,7 @@ h1 {
   h2 {
     font-family: 'Prata', 'serif';
     font-size: 36;
+    letter-spacing: 4px;
   }
   h3 {
     font-family: 'Brandon-grotesque', 'sans-serif';
@@ -55,37 +56,14 @@ p{
     font-family: 'brandon-grotesque', 'sans serif';
 }
 
-.row {
-    padding-top: 10%;
-    margin-left: 15%;
-    margin-right: 0 auto;
-}
-.cardContainer {
-    padding: 0;
-}
-.card {
-    margin-left: 15%;
-    margin-right: 0 auto;
-    border: none !important;
-    border-radius: 0 0 0 0 !important;
-    padding: 0;
-    margin-top: -25%;
-}
-.card-title {
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
 .h1-black-section {
-    padding-bottom: 2%;
     color: #D7B061;
 }
 .h1-white-section {
-    padding-bottom: 2%;
     color: black;
 }
 .h3-section-subtitle {
     color: #76623F;
-    padding-bottom: 5%;
 }
 /*SECONDARY NAVIGATION*/
 
@@ -140,29 +118,33 @@ p{
 
 /*CALENDAR*/
 
-#calendar {
+#calendar-section {
     text-align: center;
     padding-top: 10%;
-    padding-left: 5%;
-    padding-right: 5%;
-    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: center;
 }
 
 .calendar-card {
-    width: 85%;
-    margin-left: 15%;
-    margin-right: auto;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+    padding-left: 15%;
 }
 /*SCHOLARSHIPS*/
 .scholarships-section {
     padding-top: 10%;
     padding-bottom: 10%;
-    padding-right: 5%;
-    padding-left: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 .scholarships-line {
     color: black;
     border: 1px;
+    width: 100%;
 }
 .scholarships {
     display: flex;
@@ -178,17 +160,23 @@ p{
 
 .cardContainer {
     justify-content: center;
-    padding-top: 5%;
+    padding-top: 10%;
     padding-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+    position: center;
 }
 .container-fluid {
     position: center;
     border: none !important;
     justify-content: center;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 .card {
-    border: none !important;   
+    border: none !important;
+    border-radius: 0 0 0 0 !important;
 }
 .card-title-black {
     color: white;
@@ -306,3 +294,18 @@ p{
     padding-right: 5;
 }
   
+
+
+/*
+.cardContainer {
+    padding: 0;
+}
+.card {
+    border: none !important;
+    border-radius: 0 0 0 0 !important;
+    padding: 0;
+}
+.card-title {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
