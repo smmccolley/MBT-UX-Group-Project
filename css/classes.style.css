@@ -6,6 +6,7 @@ h1 {
   h2 {
     font-family: 'Prata', 'serif';
     font-size: 36;
+    letter-spacing: 4px;
   }
   h3 {
     font-family: 'Brandon-grotesque', 'sans-serif';
@@ -55,76 +56,56 @@ p{
     font-family: 'brandon-grotesque', 'sans serif';
 }
 
-.row {
-    padding-top: 10%;
-    padding-bottom: 10%;
-    margin-left: 15%;
-    margin-right: 0 auto;
-}
-.cardContainer {
-    padding: 0;
-}
-.card {
-    margin-left: 15%;
-    margin-right: 0 auto;
-    border: none !important;
+.btn-primary:hover {
+    background: #d7b061 !important;
     border-radius: 0 0 0 0 !important;
-    padding: 0;
-    margin-top: -25%;
+    border: 0 !important;
+    font-family: 'brandon-grotesque', 'sans serif';
 }
-.card-title {
-    padding-top: 3%;
-    padding-bottom: 3%;
-}
+
 .h1-black-section {
-    padding-top: 10%;
-    padding-bottom: 2%;
     color: #D7B061;
 }
 .h1-white-section {
-    padding-top: 10%;
-    padding-bottom: 2%;
     color: black;
 }
 .h3-section-subtitle {
     color: #76623F;
-    padding-bottom: 5%;
 }
 /*SECONDARY NAVIGATION*/
-.navbar {
-    background-color: white;
-    position: fixed;
-    top: 10;
-    background-color: white;
-    margin-left: 0;
-    overflow: hidden;
-    
-}
-.navbar-nav {
-    justify-content: space-around;
-    width: 100%;
+.title-classes h1 {
     padding-bottom: 2%;
-    border-bottom: 5px, #D7B061 !important;
-    
+    text-align: center !important;
 }
-.active {
-    border-bottom: 5px, #D7B061;
+.menu_bar{
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: white;
 }
-.nav-link {
-    font-family: 'prata', 'serif';
+
+.menu{
+    text-align: center;
+}
+
+.menu a{
     text-decoration: none;
-    font-size: 30px;
-    color: black !important;
-}
-.nav-link :hover {
-    text-decoration: underline, 5px, solid #D7B061 !important;
-    transition: 0.3s !important;
     color: black;
+    font-family: 'Prata', 'serif';
+    font-size: 16pt;
+    font-weight: 300;
+    font-style: normal;
 }
 
-/*HOMEPAGE*/
+.menu a:hover{
+    color:black;
+    border-bottom: 5px solid #D7B061;
+}
 
-/*ABOUT PAGE*/
+.menu a:active{
+    border-bottom: 5px solid #D7B061;
+}
 
 /*CLASSES PAGE*/
 .classes-hero {
@@ -132,110 +113,262 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    margin: 0 auto;
-    height: 90vh;
+    width: 100%;
+    height: 100vh !important;
+    padding-bottom: 10%;
 }
 .card-text {
     text-align: left;
-}
-.calendar {
-    text-align: center;
+    padding-top: -2%;
+    padding-bottom: -2%;
+    margin-left: 3%;
 }
 
-.calendar-card {
-    width: 85%;
-    margin-left: 15%;
-    margin-right: auto;
-}
 .btn-card-classes {
     padding: 5%;
     margin-top: auto;
     font-family: 'brandon-grotesque', 'sans serif';
 }
+
+.btn-card-classes:hover {
+    background: #d7b061 !important;
+    border-radius: 0 0 0 0 !important;
+    border: 0 !important;
+    font-family: 'brandon-grotesque', 'sans serif';
+}
+
+/*CALENDAR*/
+
+#calendar-section {
+    text-align: center;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: center;
+}
+
+.calendar-card {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+    padding-left: 15%;
+}
+
+.calendar-h1 {
+    padding-bottom: 5%;
+}
+/*SCHOLARSHIPS*/
 .scholarships-section {
     padding-top: 10%;
     padding-bottom: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 .scholarships-line {
     color: black;
     border: 1px;
+    width: 100%;
 }
 .scholarships {
     display: flex;
     flex-direction: row;
     padding-top: 5%;
     padding-bottom: 5%;
-    margin-left: 15%;
-    margin-right: 0 auto;
+    justify-content: center;
+    /*margin-left: 15%;
+    margin-right: 0 auto;*/
 }
 
+/*GENERAL CARD INFO*/
+
+.cardContainer {
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
 .container-fluid {
-    flex-direction: row;
+    position: center;
     border: none !important;
+    justify-content: center;
+    width: 100% !important;
+}
+
+.card {
+    border: none !important;
+    border-radius: 0 0 0 0 !important;
+    padding-right: 5%;
+    padding-left: 5%;
+    background-color: black;
+    width: 100% !important;
+    margin: 0 !important;
+    overflow-x: hidden !important;
+    
 }
 .card-title-black {
     color: white;
     padding-top: 5%;
     padding-bottom: 5%;
+    width: 100% !important;
+    overflow-x: hidden !important;
 }
 .card-text-black {
     color: white;
     padding-bottom: 5%;
     text-align: left;
+    width: 100% !important;
+    overflow-x: hidden !important;
 }
 
 .card-title-white {
     color: black;
     padding-top: 5%;
     padding-bottom: 5%;
+    width: 100% !important;
+    overflow-x: hidden !important;
 }
 
 .card-text-white {
     color:black;
     padding-bottom: 5%;
     text-align: left;
+    width: 100% !important;
+    overflow-x: hidden !important;
 }
 
 .card-img-top {
-    height: 386px;
+    height: 35vh;
     object-position: center;
     object-fit: cover;
-    border-radius: 0 0 0 0;
+    border-radius: 0 0 0 0 !important;
+    width: 100% !important;
+    overflow-x: hidden !important;
     
+}
+
+
+/*TRAINING CARDS*/
+#training-programs {
+    background-color: black;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+    width: 100%;
+}
+.cardContainer .training {
+    width: 100% !important;
+    background-color: black;
+}
+.container-fluid .content .classes-training {
+    position: center;
+    border: none !important;
+    justify-content: center;
+    width: 100% !important;
+    background-color: black;
+}
+.card .training {
+    width: 100% !important;
+    background-color: black;
 }
 .card-body-training {
     border: none !important;
     background-color: black;
+    width: 100% !important;
+}
+.row .training-programs {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    width: 100% !important;
+    
 }
 
-#training-programs {
-    background-color: black;
-    text-align: center;
-}
-
-.card-body-open {
-    border: none !important;
-}
+/*OPEN CLASSES CARDS*/
 #open-classes {
     background-color: white;
     text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+}
+.card-body-open {
+    border: none !important;
+    width: 100% !important;
+}
+.row .open {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 100% !important;
 }
 
+
+/*ADULT CLASSES CARDS*/
+#adult-classes {
+    background-color: black;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+}
+.cardContainer .adult {
+    width: 100% !important;
+    background-color: black;
+}
+
+.card .adult {
+    width: 100% !important;
+    background-color: black;
+}
 .card-body-adult {
     border: none !important;
     background-color: black;
 }
 
-#adult-classes {
-    background-color: black;
-    text-align: center;
+.row .adult-classes-row {
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
+/*INTENSIVES CARDS*/
 
-.card-body-intensives {
-    border: none !important;
-}
 #intensives {
     background-color: white;
     text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+}
+.card-body-intensives {
+    border: none !important;
+}
+.row .intensives-row {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5;
 }
   
+
+
+/*
+.cardContainer {
+    padding: 0;
+}
+.card {
+    border: none !important;
+    border-radius: 0 0 0 0 !important;
+    padding: 0;
+}
+.card-title {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
