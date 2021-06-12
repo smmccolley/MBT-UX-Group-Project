@@ -56,6 +56,13 @@ p{
     font-family: 'brandon-grotesque', 'sans serif';
 }
 
+.btn-primary:hover {
+    background: #d7b061 !important;
+    border-radius: 0 0 0 0 !important;
+    border: 0 !important;
+    font-family: 'brandon-grotesque', 'sans serif';
+}
+
 .h1-black-section {
     color: #D7B061;
 }
@@ -109,11 +116,21 @@ p{
 }
 .card-text {
     text-align: left;
+    padding-top: -2%;
+    padding-bottom: -2%;
+    margin-left: 3%;
 }
 
 .btn-card-classes {
     padding: 5%;
     margin-top: auto;
+    font-family: 'brandon-grotesque', 'sans serif';
+}
+
+.btn-card-classes:hover {
+    background: #d7b061 !important;
+    border-radius: 0 0 0 0 !important;
+    border: 0 !important;
     font-family: 'brandon-grotesque', 'sans serif';
 }
 
@@ -173,6 +190,7 @@ p{
     position: center;
     border: none !important;
     justify-content: center;
+    width: 100% !important;
 }
 
 .card {
@@ -181,29 +199,40 @@ p{
     padding-right: 5%;
     padding-left: 5%;
     background-color: black;
+    width: 100% !important;
+    margin: 0 !important;
+    overflow-x: hidden !important;
     
 }
 .card-title-black {
     color: white;
     padding-top: 5%;
     padding-bottom: 5%;
+    width: 100% !important;
+    overflow-x: hidden !important;
 }
 .card-text-black {
     color: white;
     padding-bottom: 5%;
     text-align: left;
+    width: 100% !important;
+    overflow-x: hidden !important;
 }
 
 .card-title-white {
     color: black;
     padding-top: 5%;
     padding-bottom: 5%;
+    width: 100% !important;
+    overflow-x: hidden !important;
 }
 
 .card-text-white {
     color:black;
     padding-bottom: 5%;
     text-align: left;
+    width: 100% !important;
+    overflow-x: hidden !important;
 }
 
 .card-img-top {
@@ -211,6 +240,8 @@ p{
     object-position: center;
     object-fit: cover;
     border-radius: 0 0 0 0 !important;
+    width: 100% !important;
+    overflow-x: hidden !important;
     
 }
 
@@ -224,20 +255,32 @@ p{
     padding-left: 5%;
     padding-right: 5%;
     justify-content: center;
+    width: 100%;
+}
+.cardContainer .training {
+    width: 100% !important;
+    background-color: black;
 }
 .container-fluid .content .classes-training {
     position: center;
     border: none !important;
     justify-content: center;
+    width: 100% !important;
+    background-color: black;
+}
+.card .training {
+    width: 100% !important;
+    background-color: black;
 }
 .card-body-training {
     border: none !important;
     background-color: black;
-    width: 100%;
+    width: 100% !important;
 }
 .row .training-programs {
     padding-top: 10%;
     padding-bottom: 5%;
+    width: 100% !important;
     
 }
 
@@ -253,14 +296,16 @@ p{
 }
 .card-body-open {
     border: none !important;
+    width: 100% !important;
 }
 .row .open {
     padding-top: 10%;
     padding-bottom: 10%;
+    width: 100% !important;
 }
 
 
-/*OPEN CLASSES CARDS*/
+/*ADULT CLASSES CARDS*/
 #adult-classes {
     background-color: black;
     text-align: center;
@@ -269,6 +314,15 @@ p{
     padding-left: 5%;
     padding-right: 5%;
     justify-content: center;
+}
+.cardContainer .adult {
+    width: 100% !important;
+    background-color: black;
+}
+
+.card .adult {
+    width: 100% !important;
+    background-color: black;
 }
 .card-body-adult {
     border: none !important;
