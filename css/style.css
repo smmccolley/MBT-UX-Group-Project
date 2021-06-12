@@ -9,6 +9,154 @@ a, a:hover, a:focus, a:active {
     background-color: black !important;
 }
 
+
+.btn-primary {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d7b061+1,756240+84 */
+    background: rgb(215,176,97); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(215,176,97,1) 1%, rgba(117,98,64,1) 84%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(215,176,97,1) 1%,rgba(117,98,64,1) 84%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(215,176,97,1) 1%,rgba(117,98,64,1) 84%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d7b061', endColorstr='#756240',GradientType=0 ); /* IE6-9 */
+    border-radius: 0 0 0 0 !important;
+    border: 0 !important;
+    font-family: 'brandon-grotesque', 'sans serif';
+}
+
+.row {
+    padding-top: 10%;
+    margin-left: 15%;
+    margin-right: 0 auto;
+}
+.cardContainer {
+    padding: 0;
+}
+.card {
+    margin-left: 15%;
+    margin-right: 0 auto;
+    border: none !important;
+    border-radius: 0 0 0 0 !important;
+    padding: 0;
+    margin-top: -25%;
+}
+.card-title {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.h1-black-section {
+    padding-bottom: 2%;
+    color: #D7B061;
+}
+.h1-white-section {
+    padding-bottom: 2%;
+    color: black;
+}
+.h3-section-subtitle {
+    color: #76623F;
+    padding-bottom: 5%;
+}
+/*SECONDARY NAVIGATION*/
+
+.menu_bar{
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.menu{
+    text-align: center;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Prata', 'serif';
+    font-size: 16pt;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.menu a:hover{
+    color:black;
+    border-bottom: 5px solid #D7B061;
+}
+
+.menu a:active{
+    border-bottom: 5px solid #D7B061;
+}
+
+/*CLASSES PAGE*/
+.classes-hero {
+    background-image: url(../images/classes-hero-2.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 90vh;
+    padding-bottom: 10%;
+}
+.card-text {
+    text-align: left;
+}
+
+.btn-card-classes {
+    padding: 5%;
+    margin-top: auto;
+    font-family: 'brandon-grotesque', 'sans serif';
+}
+
+/*CALENDAR*/
+
+#calendar {
+    text-align: center;
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+}
+
+.calendar-card {
+    width: 85%;
+    margin-left: 15%;
+    margin-right: auto;
+}
+/*SCHOLARSHIPS*/
+.scholarships-section {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.scholarships-line {
+    color: black;
+    border: 1px;
+}
+.scholarships {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    justify-content: center;
+    /*margin-left: 15%;
+    margin-right: 0 auto;*/
+}
+
+/*GENERAL CARD INFO*/
+
+.cardContainer {
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.container-fluid {
+    position: center;
+    border: none !important;
+    justify-content: center;
+}
+
+.card {
+    border: none !important;   
+
 .container-fluid.d-flex.justify-content-end{
     background-color: black;
 
@@ -67,6 +215,7 @@ a, a:hover, a:focus, a:active {
     font-style: normal;
    
 
+
 }
 
 .bg-light{
@@ -86,6 +235,54 @@ a, a:hover, a:focus, a:active {
 .modal{
     background-color: black;
 }
+
+
+.card-img-top {
+    height: 35vh;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 0 0 0 0 !important;
+    
+}
+
+
+/*TRAINING CARDS*/
+#training-programs {
+    background-color: black;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+}
+.container-fluid .content .classes-training {
+    position: center;
+    border: none !important;
+    justify-content: center;
+}
+.card-body-training {
+    border: none !important;
+    background-color: black;
+    width: 100%;
+}
+.row .training-programs {
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+/*OPEN CLASSES CARDS*/
+#open-classes {
+    background-color: white;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+}
+.card-body-open {
+    border: none !important;
 
 .btn{
     background-color: black;
@@ -112,7 +309,53 @@ a, a:hover, a:focus, a:active {
 .modal-fullscreen{
     background-color: black;
 
+
 }
+.row .open {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+
+
+/*OPEN CLASSES CARDS*/
+#adult-classes {
+    background-color: black;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+}
+.card-body-adult {
+    border: none !important;
+    background-color: black;
+}
+
+.row .adult-classes-row {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+/*INTENSIVES CARDS*/
+
+#intensives {
+    background-color: white;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: center;
+}
+.card-body-intensives {
+    border: none !important;
+}
+.row .intensives-row {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    padding-right: 5;
 
 .modal-header{
     background-color: black;
@@ -130,6 +373,7 @@ a, a:hover, a:focus, a:active {
     color: black;
     border: black;
     box-shadow: black;
+
 }
 
 
