@@ -454,6 +454,7 @@
     /* DONATION START */ 
     .donationContainer{
       padding-bottom: 10% ;
+      padding-top: 10%;
       padding-left: 5%;
       padding-right: 5%;
       background-color: white;
@@ -466,11 +467,13 @@
     text-align:left;
     }
     .donationCardT{
-      padding-top: 10%;
+      padding-left: 5%;
+      width:100%;
     }
     .donationCardB{
-      /*margin-top: 8%; */
-      padding-top: 10%;
+      padding-right: 5%;
+      padding-left:5%;
+      width:100%;
       align-items: right;
     }
     
