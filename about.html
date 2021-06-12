@@ -13,8 +13,7 @@
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
 
-
-    <!--Prata Font-->  <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+<!--Prata Font-->  <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
  <!--Brandon Font--> <link rel="stylesheet" href="https://use.typekit.net/rve6uwh.css">
     <script src="./js/app.js"></script>
     <title>Document</title>
@@ -29,9 +28,12 @@
 
     <!-- Content -->
 
-    <div class="row row_jr menu_bar">
+    <div class="row row_jr menu_bar fixed-top">
+        <div class="col-lg-12">
+            <h1>ABOUT</h1>
+        </div>
         <div class="col-sm-2">
-            <div class="menu"><a class="tab tab1" href=#mission_jr>Mission</a></div>
+            <div class="menu"><a class="tab tab1" href=#mission_jr>Misson</a></div>
         </div>
 
         <div class="col-sm-2">
@@ -73,7 +75,7 @@
     </div>
     <div class="row row_jr black_jr faculty_jr one_padding_bottom" id="faculty_jr">
         <h1>FACULTY</h1>
-        <div class="col-sm-3">
+        <div class="col-md-3 faculty_card">
             <img src="images/staff-maniya-barredo-circle.png">
             <h3>Maniya Barredo</h3>
             <p>Maniya Barredo received one of the highest titles possible in dance in 1978
@@ -82,36 +84,26 @@
                 Lady Marcos,
                 and Dame Margot Fonteyn.
             </p>
+            <button type="button" class="btn btn-primary">Read More</button>
         </div>
-        <div class="col-sm-3">
+        <div class="col-md-3 faculty_card">
             <img src="images/staff-roscoe-sales-circle.png">
             <h3>Roscoe Sales</h3>
             <p>Roscoe L. Sales, Jr., is a native of Winston-Salem, N.C. where he earned his
                 BFA on scholarship from the North Carolina School of the Arts. He has also studied at the Alvin
                 Ailey American Dance Center and The Dance Theatre of Harlem.
             </p>
+            <button type="button" class="btn btn-primary">Read More</button>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 faculty_card">
             <img src="images/staff-luis_gonzalez_circle.png">
             <h3>LUIS EDUARDO Esuardo Gonzalez</h3>
             <p class="card-text">Luis Eduardo Gonzalez is originally from Bogota, Colombia, where he grew up before
                 moving to Atlanta. From a very young age, his training came primarily from the continued direction of
                 MBT’s Maniya Barredo.
             </p>
+            <button type="button" class="btn btn-primary">Read More</button>
         </div>
-    </div>
-
-
-    <div class="row row_jr black_jr faculty_jr one_padding_top">
-        <div class="col-md-3">
-            <button type="button" class="btn btn-primary">Read More</button>
-        </div>    
-        <div class="col-md-3">
-            <button type="button" class="btn btn-primary">Read More</button>
-        </div>    
-        <div class="col-md-3">
-            <button type="button" class="btn btn-primary">Read More</button>
-        </div>    
     </div>
 
     <div class="row row_jr" id="admission_process_jr">
@@ -135,7 +127,7 @@
 
     <div class="row row_jr black_jr" id="scholarships_jr">
         <h1>SCHOLARSHIPS</h1>
-        <div class="col-sm-4">
+        <div class="col-md-4">
             <h3>THE MANIYA BARREDO SCHOLARSHIP</h3>
             <p>Awarded to a female dancer who has a passion for the Art of Dance and
                 <br> &#8226; Is committed to excellence
@@ -148,7 +140,7 @@
                 <br> &#8226; Realizes her dream
             </p>
         </div>
-        <div class="col-sm-4 offset-sm-1">
+        <div class="col-md-4 offset-md-1">
             <h3>THE MANNIE ROWE MEMORIAL SCHOLARSHIP FOR BOYS</h3>
             <p>The Scholarship is offered to a male dancer who exemplifies the talent, passion, dedication, and
                 perseverence for dance and choreography that was Mannie.
@@ -156,46 +148,62 @@
         </div>
     </div>
     <div class="row row_jr one_padding_bottom h_one_large" id="testimonials_jr">
-        <div class="col-sm-2">
+        <div class="col-md-2 testimonial_image">
             <img src="images/testimonial_image_01.png" style="width:100%">
         </div>
-        <div class="col-sm-7">
+        <div class="col-md-7">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed consequat nisl. Duis pharetra
                 dignissim eleifend. Aenean mollis gravida diam, cursus condimentum orci pellentesque ac. Vivamus commodo
                 mi non maximus fringilla. In id tincidunt justo, sagittis finibus erat. Nunc aliquet non est a sodales.
             </p>
-        </div>
-        <div class="col-sm-1 quote_mark">
-            <h1>"</h1>
         </div>
     </div>
     <div class="row row_jr one_padding_top one_padding_bottom h_one_large">
-        <div class="col-sm-2">
+        <div class="col-md-2 testimonial_image">
             <img src="images/testimonial_image_02.png" style="width:100%">
         </div>
-        <div class="col-sm-7">
+        <div class="col-md-7">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed consequat nisl. Duis pharetra
                 dignissim eleifend. Aenean mollis gravida diam, cursus condimentum orci pellentesque ac. Vivamus commodo
                 mi non maximus fringilla. In id tincidunt justo, sagittis finibus erat. Nunc aliquet non est a sodales.
             </p>
-        </div>
-        <div class="col-sm-1 quote_mark">
-            <h1>"</h1>
         </div>
     </div>
 
     <div class="row row_jr one_padding_top h_one_large">
-        <div class="col-sm-2">
+        <div class="col-md-2 testimonial_image">
             <img src="images/testimonial_image_03.png" style="width:100%">
         </div>
-        <div class="col-sm-7">
+        <div class="col-md-7">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed consequat nisl. Duis pharetra
                 dignissim eleifend. Aenean mollis gravida diam, cursus condimentum orci pellentesque ac. Vivamus commodo
                 mi non maximus fringilla. In id tincidunt justo, sagittis finibus erat. Nunc aliquet non est a sodales.
             </p>
         </div>
-        <div class="col-sm-1 quote_mark">
-            <h1>"</h1>
+    </div>
+
+    <div class="row row_jr footer_jr five_padding_top five_padding_bottom">
+        <div class="col-md-3">
+            <h2>CONNECT WITH MBT</h2>
+            <p> Metropolitan Ballet Theatre is <br> a non-profit 501 (c) (3) <br>
+                organization EIN: <br> 58-2401393</p>
+        </div>
+        <div class="col-md-3 social_media">
+            <img src="images/facebook-01.png">
+            <img src="images/instagram-01.png">
+            <img src="images/twitter-01.png">
+            <img src="images/Youtube-01.png">
+            <img src="images/envelope-regular2-01.png">
+            <img src="images/phone-solid2-01.png">
+        </div>
+        <div class="col-md-3">
+            <h5>METROPOLITAN BALLET THEATRE</h5>
+        </div>
+        <div class="col-md-3">
+            <p>11460 Maxwell Road, Suite A<br>
+            Alpharetta, GA 30009 <br>
+            (678) 297-2800 <br>
+            mbt@metropolitanballet.org</p>
         </div>
     </div>
     <!-- Footer -->
