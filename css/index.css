@@ -16,18 +16,21 @@ h1 {
 h2 {
   font-family: 'Prata', 'serif';
   font-size: 36;
+  letter-spacing: 4px;
 }
 h3 {
   font-family: 'Brandon-grotesque', 'sans-serif';
   font-size: 38;
   font-weight: 300;
   font-style: normal;
+  letter-spacing: 4px;
 }
 h4 {
   font-family: 'Brandon-grotesque', 'sans-serif';
   font-size: 30;
   font-weight: 100;
   font-style: normal;
+  letter-spacing: 4px;
 }
 h5 {
   font-family: 'Brandon-grotesque', 'sans-serif';
@@ -40,6 +43,7 @@ h6 {
   font-size: 16;
   font-weight: 100;
   font-style: normal;
+
 } 
 
 
@@ -81,6 +85,7 @@ h6 {
   margin-right: 1% !important;
   height: 386px !important;
   width: 630px !important; */
+  background-color: none !important;
   
 }
 
@@ -244,25 +249,31 @@ background-color: none !important;
   }
   .card-1{
   background-image:white;
+  margin-bottom: 5% !important;
   }
   
   .card-2{
   background-image:white; 
+  margin-bottom: 5% !important;
   }
   
   .card-3{
   background-image:white; 
+  margin-bottom: 5% !important;
   }
   
   .card-4{
-  background-image:white;  
+  background-image:white; 
+  margin-bottom: 5% !important; 
   }
   .card-5{
   background-image:white;
+  margin-bottom: 5% !important;
   }
   
   .card-6{
   background-image:white;
+  margin-bottom: 5% !important;
   }
   
 .text-alumniCardcg{
@@ -337,14 +348,148 @@ background-color: none !important;
 
 
 /* SPONSOR OPTIONS START */  
+.sponsorContainer{
+  padding-bottom: 10% ;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: white;
+}
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.col-xs-5ths {
+    width: 100%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+.card-titleS{
+font-family: 'Brandon-grotesque', 'sans-serif';
+font-size: 24px;
+font-weight: 300;
+font-style: normal;
+color: black !important;
+padding-bottom: 2%;
+line-height: 1.5em;
+}
+.card-textS{
+font-family: 'Brandon-grotesque', 'sans-serif';
+  font-size: 16px !important;
+  font-weight: 100;
+  color: black !important;
+  line-height: 1.5em;
+  padding-bottom: -2%;
+  padding-top: -2%;
+  margin-left: 3%;
+}
+.sponsorCard1{
+  text-align: left;
+  background-color: none !important;
+
+}
+
+.sponsorCard2{
+  text-align: left;
+  background-color: none !important;
+}
+
+.sponsorCard3{
+  text-align: left;
+  background-color: none !important;
+}
+
+.sponsorCard4{
+  text-align: left;
+  background-color: none !important;
+}
+
+.sponsorCard5{
+  text-align: left;
+  background-color: none !important;
+}
+.text-sponsorCardcg{
+color:#D6AF60 !important;
+font-family: 'Brandon-grotesque', 'sans-serif';
+font-size: 16;
+font-weight: 900;
+font-style: normal;
+margin-left: 3%;
+padding-bottom: 2%;
+}
+
+
+
+
 /* SPONSOR OPTIONS END */ 
 
 
 
-/* DONATION START */  
+/* DONATION START */ 
+.donationContainer{
+  padding-bottom: 10% ;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: white;
+}
+
+hr.style1 {
+  border-top: 2px solid #D6AF60 !important;
+}
+.donationHead{
+text-align:left;
+}
+.donationCardT{
+  padding-top: 10%;
+}
+.donationCardB{
+  /*margin-top: 8%; */
+  padding-top: 10%;
+  align-items: right;
+}
+
 /* DONATION END */ 
 
 
 
 /* THE SPONSORS START */  
+
+.thesponsorsContainer{
+  padding-bottom: 10% ;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: white;
+}
+
+.theSponsorCard{
+  align-items: center;
+  width:100%;
+  background-color: none !important;
+}
+
 /* THE SPONSORS END */ 
