@@ -7,6 +7,24 @@
   padding-bottom: 5%;
   background: white;
   color: black;
+  font-family: "Prata", "serif";
+  font-size: 70 !important;
+  letter-spacing: 4px;
+}
+.headingsCGblack{
+  font-family: "Prata", "serif";
+  font-size: 36 !important;
+  letter-spacing: 4px;
+  color:black;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  color: black;
+}
+.headingsCGwhite{
+  font-family: "Prata", "serif";
+  font-size: 36 !important;
+  letter-spacing: 4px;
+  color:black;
 }
 
 /* FONTS*/
@@ -110,7 +128,7 @@ h6 {
 }
 .card-textM {
   font-family: "Brandon-grotesque", "sans-serif";
-  font-size: 18px !important;
+  font-size: 16px !important;
   font-weight: 100;
   color: white !important;
   line-height: 1.5em;
@@ -231,8 +249,6 @@ h1 {
 }
 .mt-5 {
   text-align: center;
-  padding-top: 10%;
-  padding-bottom: 5%;
   color: black;
 }
 .alumniText {
@@ -244,30 +260,36 @@ h1 {
 .card-1 {
   background-image: white;
   margin-bottom: 5% !important;
+  margin-right: 2%;
 }
 
 .card-2 {
   background-image: white;
   margin-bottom: 5% !important;
+  margin-right: 2%;
 }
 
 .card-3 {
   background-image: white;
   margin-bottom: 5% !important;
+  margin-right: 2%;
 }
 
 .card-4 {
   background-image: white;
   margin-bottom: 5% !important;
+  margin-right: 2%;
 }
 .card-5 {
   background-image: white;
   margin-bottom: 5% !important;
+  margin-right: 2%;
 }
 
 .card-6 {
   background-image: white;
   margin-bottom: 5% !important;
+  margin-right: 2%;
 }
 
 .text-alumniCardcg {
@@ -276,6 +298,7 @@ h1 {
   font-size: 16;
   font-weight: 900;
   font-style: normal;
+  margin-right: 2%;
 }
 
 /* On screens that are 1920px wide or less */
@@ -345,6 +368,16 @@ h1 {
   background-color: white;
   color: black;
 }
+
+.sponsorContainer h2{
+  font-family: "Prata", "serif";
+  font-size: 36 !important;
+  letter-spacing: 4px;
+  color:black;
+  padding-bottom: 5%;
+  color: black;
+}
+
 .col-xs-5ths,
 .col-sm-5ths,
 .col-md-5ths,
@@ -386,7 +419,7 @@ h1 {
   font-weight: 300;
   font-style: normal;
   color: black !important;
-  padding-bottom: 2%;
+  padding-bottom: 5%;
   line-height: 1.5em;
 }
 .card-textS {
@@ -471,6 +504,11 @@ hr.style1 {
   padding-left: 5%;
   padding-right: 5%;
   background-color: white;
+}
+
+.thesponsorsContainer h2 {
+font-size: 36px;
+
 }
 
 .theSponsorCard {
